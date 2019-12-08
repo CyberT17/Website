@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+body{
+   background-color: black;
+}
+
+.mainName{
+    font-size:10vw;
+    color: white;
+    line-height: 5%;
+    font-family: 'Bebas Neue', cursive;
+}
+.mainDegree{
+    color: white;
+    font-size:3vw
+}
+.centered{
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
