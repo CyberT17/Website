@@ -1,22 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
 body{
    background-color: black;
 }
 
+/* Text characteristics for my name */
 .mainName{
     font-size:10vw;
     color: white;
     line-height: 5%;
     font-family: 'Bebas Neue', cursive;
 }
+
+/* Text characteristics for my degree */
 .mainDegree{
     color: white;
-    font-size:3vw
+    font-size:3vw;
+    transform: translate(1%, -200%)
 }
+
+/* Class to keep everything centered dynamically */
 .centered{
+    font-family: 'Bebas Neue', cursive;
     color: white;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* Defines the characteristics of my social media icons */
+img{
+    float:right;
+    position: fixed;
+    max-width: 2%
+}
+
+/* Defines the position of individual icons */
+.githubIcon{
+    top: 49.7%;
+    left: 61.8%;
+}
+.linkedInIcon{
+    top: 50%;
+    left: 64%;
+}
+.twitterIcon{
+    top: 49.8%;
+    left: 66.2%;
 }
